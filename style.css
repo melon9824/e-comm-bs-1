@@ -3,3 +3,15 @@
     background-color: #000;
     border-radius: 50%;
 }
+
+.nav-item:hover{
+    background-color: #be2f2f;
+}
+
+.dropdown-item:hover{
+    background-color: #be2f2f;
+}
+
+.dropdown-menu > li > hr{
+    border-top: 1px solid #d47e7e;
+}
