@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
             <a class="navbar-brand text-white d-flex align-items-center gap-1" href="#">
-                <i class="ri-shopping-basket-line fs-2 fw-bold"></i>
+                <i class="ri-shopping-basket-line fs-3 fw-bold"></i>
                 <h3 class="fs-5 fw-bold">eCommShop</h3> 
             </a>
             <button 
@@ -26,19 +26,44 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex m-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button 
+                        class="btn btn-outline-danger text-white" type="submit">
+                        Search
+                    </button>
+                </form>
+
                 <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
                     <li class="nav-item text">
-                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white d-flex align-items-center gap-1 active" aria-current="page" href="#">
+                            <i class="ri-home-4-line"></i>
+                            Home
+                        </a>
                     </li>
                     <li class="nav-item text">
-                        <a class="nav-link text-white" href="#">Products</a>
+                        <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
+                            <i class="ri-product-hunt-line"></i>
+                            Products
+                        </a>
                     </li>
                     <li class="nav-item text">
-                        <a class="nav-link text-white" href="#">Contact us</a>
+                        <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
+                            <i class="ri-shirt-line"></i>
+                            New
+                        </a>
+                    </li>
+                    <li class="nav-item text">
+                        <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
+                            <i class="ri-contacts-book-2-line"></i>
+                            Contact us
+                        </a>
                     </li>
                     <li class="nav-item text dropdown">
-                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
+                        <a 
+                            class="nav-link text-white d-flex align-items-center gap-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="ri-page-separator"></i>
+                            More
                         </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -65,13 +90,6 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button 
-                        class="btn btn-outline-danger text-white" type="submit">
-                        Search
-                    </button>
-                </form>
             </div>
         </div>
     </nav>
