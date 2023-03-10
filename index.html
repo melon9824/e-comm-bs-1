@@ -8,21 +8,25 @@
     <title>e-comm-bs-1</title>
     <!-- bootstrap css cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- bootstrap icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- rimix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-light">
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
-            <a class="navbar-brand text-white d-flex align-items-center gap-1" href="#">
-                <i class="ri-shopping-basket-line fs-3 fw-bold"></i>
-                <h3 class="fs-5 fw-bold">eCommShop</h3> 
+
+            <a class="navbar-brand text-white fw-medium d-flex align-items-center gap-1" href="#">
+                <i class="ri-shopping-basket-line fs-3 fw-bold text-warning"></i>
+                eShop
             </a>
+
             <button 
-                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,32 +41,36 @@
                 <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
                     <li class="nav-item text">
                         <a class="nav-link text-white d-flex align-items-center gap-1 active" aria-current="page" href="#">
-                            <i class="ri-home-4-line"></i>
+                            <i class="ri-home-4-line text-warning"></i>
                             Home
                         </a>
                     </li>
+
                     <li class="nav-item text">
                         <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
-                            <i class="ri-product-hunt-line"></i>
+                            <i class="ri-product-hunt-line text-warning"></i>
                             Products
                         </a>
                     </li>
+
                     <li class="nav-item text">
                         <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
-                            <i class="ri-shirt-line"></i>
+                            <i class="ri-shirt-line text-warning"></i>
                             New
                         </a>
                     </li>
+
                     <li class="nav-item text">
                         <a class="nav-link text-white d-flex align-items-center gap-1" href="#">
-                            <i class="ri-contacts-book-2-line"></i>
-                            Contact us
+                            <i class="ri-contacts-book-2-line text-warning"></i>
+                            Contact
                         </a>
                     </li>
+
                     <li class="nav-item text dropdown">
                         <a 
                             class="nav-link text-white d-flex align-items-center gap-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="ri-page-separator"></i>
+                            <i class="ri-store-3-line text-warning"></i>
                             More
                         </a>
                         <ul class="dropdown-menu bg-danger dropdown-menu-end">
@@ -78,7 +86,7 @@
                             </li>
                             <li><hr class="dropdown-divider"></li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item text-white" href="#">
                                     Something else here
                                 </a>
                             </li>
@@ -95,6 +103,7 @@
     </nav>
 
 
+    <!-- header -->
     <header>
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -109,10 +118,7 @@
                     <img src="images/slide3.jpg" class="d-block w-100" alt="slider image">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="images/slide5.jpeg" class="d-block w-100" alt="slider image">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="images/slide6.jpeg" class="d-block w-100" alt="slider image">
+                    <img src="images/slide4.jpg" class="d-block w-100" alt="slider image">
                 </div>
             </div>
 
@@ -125,7 +131,143 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
     </header>
+
+
+    <section class="container">
+
+        <div class="row">
+
+            <div class="col-lg-5">
+                <img src="images/girl1.png" class="img-fluid" alt="girl image">
+            </div>
+
+            <div class="col-lg-7">
+
+                <div class="row mt-md-5">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/shoe.jpg" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">Sneakers & Keds</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$74.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/jeans.jpg" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">Jeans Pant</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$89.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/watch.jpg" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">Watch</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$114.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-md-5">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/t-shirt.jpg" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">T-shirt</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$44.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/half-pent.png" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">Shorts</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$39.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="images/cap.jpg" class="card-img-top" alt="shoes image">
+                            <div class="card-body">
+                                <p class="card-text text-secondary fw-medium">Cap</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$24.95</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 

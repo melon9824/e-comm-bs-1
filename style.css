@@ -1,7 +1,12 @@
+
 .carousel-control-prev-icon, 
 .carousel-control-next-icon {
     background-color: #000;
     border-radius: 50%;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
 }
 
 .nav-item:hover{
