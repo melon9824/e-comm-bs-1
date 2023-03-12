@@ -20,3 +20,11 @@
 .dropdown-menu > li > hr{
     border-top: 1px solid #d47e7e;
 }
+
+img{
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,.5));
+}
+
+.sale{
+    transform: rotate(-90deg);
+}
