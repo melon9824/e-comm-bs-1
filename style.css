@@ -27,4 +27,13 @@ img{
 
 .sale{
     transform: rotate(-90deg);
+    transition: .5s;
+}
+
+.tranding__card:hover .sale{
+    transform: scale(1.25) rotate(-90deg);
+}
+
+.know__more-img{
+    filter: none;
 }
