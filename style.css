@@ -37,3 +37,12 @@ img{
 .know__more-img{
     filter: none;
 }
+
+.accordion-button:link, 
+.accordion-button:visited, 
+.accordion-button:hover, 
+.accordion-button:focus,
+.accordion-button:active{
+    background-color: #DC3545 !important;
+    color:#FFF !important;
+}
